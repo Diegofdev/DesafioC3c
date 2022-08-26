@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Desafio3 C3C</title>
+</head>
+<body>
+    <p>Questão 03 - Sistema de Notas<br>
+        Construa um código JS que receba uma valor através de um input para um sistema de notas de uma instituição que possui a seguinte política de classificação:<br><br> 
+        
+        * Todo aluno recebe uma nota de 0 a 100.<br> 
+        * Alunos com nota abaixo de 40 são reprovados.<br> 
+        * As notas possuem a seguinte regra de arredondamento:<br> 
+            * Se a diferença entre a nota e o próximo múltiplo de 5 for menor que 3, arredondar a nota para esse próximo múltiplo de 5.<br> 
+            * Se a nota for abaixo de 38, não é feito nenhum arredondamento pois esta nota resulta na reprovação do aluno.<br><br> 
+        
+        Por exemplo, a nota 84 será arredondada para 85, mas a nota 29 não será arredondada por ser abaixo de 40 e não ser possível arredondamento eficiente, ou seja, que evite a reprovação do aluno. 
+        No caso de a nota ser 38, o arredondamento é possível pois atingirá 40 e o aluno será aprovado.<br>
+        --------------------------------------------
+    </p>
+
+    
+    <label>Digite o nome do aluno:</label> <br>
+    <input type="text" id="NomeAluno" name="NomeAluno" ><br>
+    <label>Digite a nota do aluno:</label><br>
+    <input type="number" id="NotaAluno" name="NotaAluno" ><br><br>
+    
+    <button  id="calcular">Resultado</button>
+    <p id="resultado"></p>  
+    <script src="Desafio3.js"></script>
+</body>
+</html>
