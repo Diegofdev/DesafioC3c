@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desafio2.css">
     
     <title>Desafio4 C3C</title>
 </head>
 <body>
     <p>Questão 02 - Bhaskara
-        Uma das vantagens da programação é a automatização de tarefas que não gostamos de realizar. Dito isto, elabore um método em JS cujo objetivo é resolver a fórmula de Bhaskara.<br> <br>
-        
-        Para isso, sua função deve receber três parâmetros, “ax2”, “bx” e “c”, de tal modo que na equação: 3x² - 5x + 12 os valores seriam respectivamente: 3, -5, 12. <br><br>
-        
-        Como retorno deve ser passado um vetor que tem 2 valores um para cada possível resultado, mesmo que os resultados sejam iguais.<br><br>
-        
+        Uma das vantagens da programação é a automatização de tarefas que não gostamos de realizar. Dito isto, elabore um método em JS cujo objetivo é resolver a fórmula de Bhaskara.
+        <br><br>
+        Para isso, sua função deve receber três parâmetros, “ax2”, “bx” e “c”, de tal modo que na equação: 3x² - 5x + 12 os valores seriam respectivamente: 3, -5, 12. 
+        <br><br>
+        Como retorno deve ser passado um vetor que tem 2 valores um para cada possível resultado, mesmo que os resultados sejam iguais.
+        <br><br>
         Caso o delta seja negativo, retorne, ao invés do vetor, um string com a frase: “Delta é negativo”.<br>
-        --------------------------------------------
+        
     </p>
 
-    
+    <div class="container">
     <label>Digite os 3 Valores:</label><br>
     <input type="number" id="valor" name="valor" min="1" max="1000">
     <input type="number" id="valor2" name="valor2" min="1" max="1000">
@@ -27,6 +28,7 @@
 
     <button  id="calcular">Resultado</button>
     <p id="resultado"></p>  
+    </div>
     <script src="Desafio2.js"></script>
 </body>
 </html>
