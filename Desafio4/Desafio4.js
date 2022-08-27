@@ -29,4 +29,3 @@ function criarArray(num){
 }
 
 
-console.log(criarArray(45));
