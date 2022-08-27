@@ -1,3 +1,15 @@
+const valor = document.querySelector("#valor");
+const btn = document.getElementById("calcular");
+
+btn.onclick = () => {
+    if(valor.value == ""){
+        valor.focus();
+        document.getElementById("resultado").innerHTML = "Digite um numero inteiro";
+    } else {
+        document.getElementById("resultado").innerHTML = criarArray(valor.value);
+    }
+}
+
 function criarArray(num){
     num = num;
     var contador = [];
@@ -13,7 +25,7 @@ function criarArray(num){
         }
         
     }
-    return contador;
+    return contador.join(', ');
 }
 
 
