@@ -40,6 +40,3 @@ const bhaskara = (ax2, bx, c) => {
     return res.join(', ');
 }
 
-console.log(bhaskara(1, 12, -13));
-console.log(bhaskara(3, -5, 12));
-console.log(bhaskara(1, -6, 9));
